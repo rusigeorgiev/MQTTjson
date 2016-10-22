@@ -1,0 +1,111 @@
+    2  sudo -s
+    3  df -h
+    4  shutdown
+    5  sudo shutdown
+    6  sudo nano /boot/config.txt
+    7  reboot
+    8  sudo apt-get install tightvncserver
+    9  tightvncserver
+   10  ip addr show
+   11  tightvncserver
+   12  cd /home/pi
+   13  cd .config
+   14  ls
+   15  mkdir autostart
+   16  cd autostart
+   17  vi tightvnc.desktop
+   18  reboot
+   19  dconf-editor
+   20  gsettings list-schemas
+   21  gsettings list-schemas | grep sleep
+   22  gsettings list-schemas | grep suspe
+   23  gsettings list-schemas
+   24  sudo apt-get install dconf-tools
+   25  dconf-editor
+   26  gsettings list-schemas | grep power
+   27  sudo iwconfig wlan0 power off
+   28  nano /etc/rc.local 
+   29  sudo nano /etc/rc.local 
+   30  sudo apt-get update
+   31  sudo apt-get dist-upgrade
+   32  sudo apt-get install piclone geany usb-nodeswitch
+   33  apt-get update
+   34  sudo apt-get update
+   35  sudo apt-get install piclone geany usb-nodeswitch
+   36  sudo apt-get install python-pigpio python3-pigpio
+   37  sudo apt-get install piclone geany usb-nodeswitch
+   38  curl -O http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+   39  sudo apt-key add mosquitto-repo.gpg.key
+   40  rm mosquitto-repo.gpg.key
+   41  cd /etc/apt/sources.list.d/
+   42  sudo curl -O http://repo.mosquitto.org/debian/mosquitto-jessie.list
+   43  sudo apt-get update
+   44  sudo apt-get install mosquitto
+   45  sudo apt-get install mosquitto mosquitto-clients python-mosquitto
+   46  vim
+   47  sudo apt-get vim
+   48  sudo apt-get install vim
+   49  vim /etc/default/locale 
+   50  update-locale 
+   51  sudo vim /etc/default/locale 
+   52  sudo update-locale 
+   53  sudo dpkg-reconfigure locales
+   54  export LANGUAGE=en_US.UTF-8
+   55  export LANG=en_US.UTF-8
+   56  export LC_ALL=en_US.UTF-8
+   57  sudo dpkg-reconfigure locales
+   58  export LC_ALL=en_US.UTF-8
+   59  sudo export LC_ALL=en_US.UTF-8
+   60  vim /etc/locale.gen
+   61  sudo update-locale 
+   62  sudo apt-get install mosquitto mosquitto-clients python-mosquitto
+   63  apt-get autoremove
+   64  sudo apt-get autoremove
+   65  sudo apt-get install mosquitto mosquitto-clients python-mosquitto
+   66  uname -m
+   67  uname -a
+   68  sudo /etc/init.d/mosquitto stop
+   69  sudo nano /etc/mosquitto/mosquitto.conf
+   70  cp /etc/mosquitto/mosquitto.conf /home/pi/Downloads/
+   71  sudo nano /etc/mosquitto/mosquitto.conf
+   72  sudo /etc/init.d/mosquitto start
+   73  mosquitto_sub -d -t hello/world
+   74  mosquitto_pub -d -t hello/world -m "Hello from Terminal window 2!"
+   75  mosquitto_sub -d -t hello/world
+   76  history
+   77  cp /etc/mosquitto/mosquitto.conf /home/pi/Downloads/mosquitto.conf
+   78  cd /home/pi/Downloads/
+   79  ls
+   80  cp /etc/mosquitto/mosquitto.conf /home/Downloads/mosquitto.conf
+   81  cd ..
+   82  ls
+   83  which python
+   84  python --help
+   85  python --help | grep vers
+   86  python -V
+   87  pip install paho-mqtt
+   88  sudo pip install paho-mqtt
+   89  mosquitto_sub -d -t hello/world
+   90  ps -ax | grep mos
+   91  ps -ah | grep mqtt
+   92  ps -ah | grep mos
+   93  ps
+   94  ps -ah
+   95  ps -ax
+   96  ps -ax | grep mosq
+   97  mosquitto_sub -d -t hello/world
+   98  history
+   99  ps -ax | grep mosq
+  100  mosquitto_sub -d -t hello/world
+  101  history
+  102  mosquitto_pub -d -t hello/world -m "Hello from Terminal window 2!"
+  103  cd /home/pi/Python
+  104  ls
+  105  python MQTT_publish.py
+  106  mosquitto_sub -d -t hello/world
+  107  history
+  108  sudo nano /etc/mosquitto/mosquitto.conf
+  109  mosquitto_sub -d -t hello/world
+  110  mosquitto_pub -d -t hello/world -m "Hello from Terminal window 2!"
+  111  history
+  112  mosquitto_sub -d -t hello/world
